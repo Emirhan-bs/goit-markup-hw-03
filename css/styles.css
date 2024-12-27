@@ -12,9 +12,11 @@ h2 {
   font-family: "roboto", sans-serif;
   font-weight: 400;
 }
+/* Header */
+/* header logo ve bilgi */
 .all-header {
   position: relative;
-  border: 1px solid red;
+  border-bottom: 1px solid #e7e9fc;
 }
 .all-header .all-header-container,
 .header {
@@ -31,19 +33,23 @@ h2 {
   padding: 0px;
   margin-left: auto;
 }
-.all-header .all-header-logo {
-  border: 1px solid none;
-  margin-left: auto;
-  margin-top: 24px;
-  display: inline-block;
-}
+
 .all-header .header-one {
-  border: 1px solid green;
+  border: 1px solid none;
   display: inline-block;
   margin-left: auto;
   margin-bottom: 0%;
   position: relative;
 }
+.all-header .container .container-nav .header ul {
+  display: flex;
+  gap: 40px;
+}
+.all-header .container .container-nav .header .header-one li {
+  padding: 24px 0;
+}
+/* header logo ve bilgi kısmı BİTTİ */
+/* address */
 .address {
   display: inherit;
   border: none;
@@ -59,6 +65,12 @@ h2 {
   display: inline-block;
   margin-left: 0%;
 }
+.address .address-ul {
+  display: flex;
+  gap: 40px;
+}
+/* address BİTTİ */
+/* Header BİTTİ */
 /* Bütün Gövde Bitti */
 /* H1 ve Buton */
 .section-main {
@@ -131,6 +143,7 @@ h2 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-part-2 {
@@ -140,7 +153,7 @@ h2 {
 /* Address */
 .address {
   font-style: normal;
-  border: 1px solid red;
+  border: 1px solid none;
   display: flex;
   margin-left: 37.8%;
 }
@@ -323,3 +336,18 @@ p {
   flex-direction: row;
 }
 /* Our Portfolio BİTTİ */
+/* img etiketleri */
+img {
+  display: block;
+}
+/* header kısmı container */
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 15px;
+}
+.container .container-nav {
+  display: flex;
+  align-items: center;
+}
