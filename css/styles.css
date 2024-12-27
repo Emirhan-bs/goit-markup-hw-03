@@ -18,20 +18,12 @@ h2 {
   position: relative;
   border-bottom: 1px solid #e7e9fc;
 }
-.all-header .all-header-container,
-.header {
-  box-sizing: border-box;
-  display: flex;
-
-  align-items: stretch;
-  flex-direction: row;
-}
 
 .all-header .container .container-nav .header {
   display: flex;
   gap: 40px;
 }
-.all-header .container .container-nav .header .header-one {
+.all-header .container .container-nav .header .header-one .header-studio {
   padding: 24px 0;
 }
 /* header logo ve bilgi kısmı BİTTİ */
