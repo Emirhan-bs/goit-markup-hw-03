@@ -30,9 +30,10 @@ h2 {
 .all-header .container .container-nav .header {
   display: flex;
   gap: 40px;
+}
+.all-header .container .container-nav .header .header-one {
   padding: 24px 0;
 }
-
 /* header logo ve bilgi kısmı BİTTİ */
 /* address */
 .address {
