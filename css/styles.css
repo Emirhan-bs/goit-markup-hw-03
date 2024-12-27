@@ -1,0 +1,325 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: #ffffff;
+  color: #434455;
+  width: 1300px;
+  height: 60px;
+}
+p,
+h2 {
+  color: #434455;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+}
+.all-header {
+  position: relative;
+  border: 1px solid red;
+}
+.all-header .all-header-container,
+.header {
+  box-sizing: border-box;
+  display: flex;
+  gap: 24px;
+  align-items: stretch;
+  flex-direction: row;
+}
+.header-all {
+  border: none;
+  display: inline-block;
+  position: relative;
+  padding: 0px;
+  margin-left: auto;
+}
+.all-header .all-header-logo {
+  border: 1px solid none;
+  margin-left: auto;
+  margin-top: 24px;
+  display: inline-block;
+}
+.all-header .header-one {
+  border: 1px solid green;
+  display: inline-block;
+  margin-left: auto;
+  margin-bottom: 0%;
+  position: relative;
+}
+.address {
+  display: inherit;
+  border: none;
+  position: relative;
+  margin: auto;
+  padding: 0%;
+}
+.address .mail {
+  display: inline-block;
+  margin-left: 0%;
+}
+.address .phone {
+  display: inline-block;
+  margin-left: 0%;
+}
+/* Bütün Gövde Bitti */
+/* H1 ve Buton */
+.section-main {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  width: 1300px;
+  height: 600px;
+  color: #434455;
+  letter-spacing: 2%;
+  border: 1px solid;
+  border: 1px solid none;
+  background-color: #2e2f42;
+  text-align: center;
+  display: inline-block;
+}
+.section-text {
+  color: white;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  pad: 100px;
+  margin: 200px;
+  display: flex;
+}
+.section-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  pad: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.section-button:hover {
+  background-color: #404bbf;
+}
+.section-button:focus {
+  background-color: #404bbf;
+}
+/* H1 ve Buton BİTTİ */
+/* Bütün Linkler */
+.header .header-studio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header .header-studio:hover {
+  color: #404bbf;
+}
+.header-studio:focus {
+  color: #404bbf;
+}
+/* Bütün Linkler BİTTİ */
+/* Header Logo */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+
+.logo-part-2 {
+  color: #2e2f42;
+}
+/* Header Logo BİTTİ */
+/* Address */
+.address {
+  font-style: normal;
+  border: 1px solid red;
+  display: flex;
+  margin-left: 37.8%;
+}
+.address .address-mail {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin-right: 20px;
+}
+.address .address-mail:hover {
+  color: #404bbf;
+  font-style: normal;
+}
+.address .address-mail:focus {
+  color: #404bbf;
+  font-style: normal;
+}
+/* Address BİTTİ */
+/* Bütün Paragraflar */
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 4%;
+  color: #8e8f99;
+}
+/* Bütün Paragraflar BİTTİ */
+/* Section second part */
+.second {
+  display: flex;
+  gap: 0px;
+  border: none;
+}
+.second .second-part {
+  display: flex;
+  gap: 5%;
+  position: relative;
+}
+.second .second-one {
+  text-align: center;
+  display: inline-block;
+}
+.second .second-part .second-part-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.second .second-part .second-part-paragraf {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* Section second part BİTTİ */
+/* Third part */
+.third .third-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+.third .third-photo .third-photo-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.third .third-photo .third-photo-paragraf {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* Footer */
+.footer {
+  background-color: #2e2f42;
+}
+
+/* Footer BİTTİ */
+.footer .footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.footer .footer-logo .footer-logo-studio {
+  color: #2e2f42;
+  color: #f4f4fd;
+}
+.footer .footer-paragraf {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+/* Footer Logo */
+
+/* Footer Logo BİTTİ */
+/* Out TEAM */
+.our-team {
+  background-color: #f4f4fd;
+  border: 1px solid none;
+  text-align: center;
+  width: 1300px;
+  height: 600px;
+  margin: 0%;
+  padding: 0%;
+}
+.our-team .our-team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.our-team .our-team-photo {
+  background-color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  border-radius: 6%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.our-team-long {
+  display: flex;
+  gap: 4%;
+}
+.our-team .our-team-photo .our-team-photo-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.our-team .our-team-photo .our-team-photo-paragraf {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* Our TEAM BİTTİ */
+/* Our Portfolio */
+
+.third .third-all {
+  display: flex;
+  border: 1px solid none;
+}
+.third .third-one {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 6px;
+  display: flex;
+  gap: 12px;
+  gap: 50px;
+  list-style: none;
+  text-align: center;
+  flex-direction: row;
+}
+
+.third .third-two {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 6px;
+  display: flex;
+  gap: 12px;
+  gap: 50px;
+  list-style: none;
+  text-align: left;
+  text-align: center;
+  flex-direction: row;
+}
+/* Our Portfolio BİTTİ */
