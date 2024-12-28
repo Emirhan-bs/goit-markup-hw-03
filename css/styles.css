@@ -5,6 +5,8 @@ body {
   color: #434455;
   width: 1300px;
   height: 60px;
+  flex-direction: column;
+  border: 1px solid none;
 }
 p,
 h2 {
@@ -22,59 +24,45 @@ h2 {
 .all-header .container .container-nav .header {
   display: flex;
   gap: 40px;
+  list-style-type: none;
 }
 .all-header .container .container-nav .header .header-one .header-studio {
   padding: 24px 0;
+  text-decoration: none;
 }
 /* header logo ve bilgi kısmı BİTTİ */
 /* address */
-.address {
-  display: inherit;
-  border: none;
-  position: relative;
-  margin: auto;
-  padding: 0%;
+
+.all-header .container .address {
 }
-.address .mail {
-  display: inline-block;
-  margin-left: 0%;
-}
-.address .phone {
-  display: inline-block;
-  margin-left: 0%;
-}
-.address .address-ul {
-  display: flex;
-  gap: 40px;
-}
+
 /* address BİTTİ */
 /* Header BİTTİ */
 /* Bütün Gövde Bitti */
 /* H1 ve Buton */
+.section-main .container {
+  flex-direction: column;
+
+  align-items: center;
+}
 .section-main {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  width: 1300px;
-  height: 600px;
+  padding: 188px 0;
   color: #434455;
   letter-spacing: 2%;
-  border: 1px solid;
-  border: 1px solid none;
   background-color: #2e2f42;
-  text-align: center;
-  display: inline-block;
 }
-.section-text {
+.section-main .container .section-text {
   color: white;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
+
   letter-spacing: 0.02em;
-  pad: 100px;
-  margin: 200px;
+  max-width: 496px;
   display: flex;
 }
-.section-button {
+.section-main .container .section-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -83,10 +71,12 @@ h2 {
   background-color: #4d5ae5;
   color: white;
   cursor: pointer;
-  display: inline-block;
-  pad: 10px 20px;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
   border-radius: 4px;
-  border: none;
+
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 .section-button:hover {
@@ -133,16 +123,35 @@ h2 {
   font-style: normal;
   border: 1px solid none;
   display: flex;
-  margin-left: 37.8%;
+  margin-left: 285px;
+  padding-right: 0px;
 }
+
 .address .address-mail {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-right: 20px;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+  gap: 0px;
+  text-decoration: none;
+  border: 1px solid none;
 }
+.all-header .container .address .address-ul {
+  border: 1px solid none;
+  display: flex;
+  gap: 10px;
+  margin: 0px;
+  list-style-type: none;
+  align-items: center;
+  padding-left: 30px;
+  justify-content: center;
+}
+
 .address .address-mail:hover {
   color: #404bbf;
   font-style: normal;
@@ -164,31 +173,17 @@ p {
 /* Bütün Paragraflar BİTTİ */
 /* Section second part */
 .second {
+  padding: 120px 0;
+}
+.second .container .second-container-ul {
   display: flex;
-  gap: 0px;
-  border: none;
+  gap: 24px;
 }
-.second .second-part {
-  display: flex;
-  gap: 5%;
-  position: relative;
+.second .container .second-container-ul .second-one {
+  width: calc((100% - 72px) / 4);
 }
-.second .second-one {
-  text-align: center;
-  display: inline-block;
-}
-.second .second-part .second-part-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.second .second-part .second-part-paragraf {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+.second .container .second-container-ul .second-one .second-part-title {
+  margin-bottom: 8px;
 }
 /* Section second part BİTTİ */
 /* Third part */
@@ -240,17 +235,13 @@ p {
 /* Footer Logo */
 
 /* Footer Logo BİTTİ */
-/* Out TEAM */
+/* Out TEAM class 3*/
 .our-team {
+  padding: 120px 0;
   background-color: #f4f4fd;
-  border: 1px solid none;
-  text-align: center;
-  width: 1300px;
-  height: 600px;
-  margin: 0%;
-  padding: 0%;
 }
-.our-team .our-team-title {
+.our-team .container .our-team-title {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -258,6 +249,7 @@ p {
   text-transform: capitalize;
   color: #2e2f42;
 }
+
 .our-team .our-team-photo {
   background-color: #ffffff;
   display: inline-block;
