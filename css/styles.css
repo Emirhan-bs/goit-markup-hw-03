@@ -190,6 +190,7 @@ p {
 }
 .visually-hidden {
   display: none;
+  opacity: 0;
 }
 /* Section second part BİTTİ */
 
