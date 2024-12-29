@@ -180,13 +180,14 @@ p {
   display: flex;
   gap: 24px;
 }
-.second .container .second-container-ul .second-one li {
+.second .container .second-container-ul .second-one {
   width: calc((100% - 72px) / 4);
 }
+
 .second .container .second-container-ul .second-one .second-part-title {
   margin-bottom: 8px;
 }
-.second .container .visually-hidden {
+.visually-hidden-h2 {
   visibility: hidden;
   position: absolute;
   width: 1px;
