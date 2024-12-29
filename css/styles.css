@@ -179,16 +179,15 @@ p {
 .second .container .second-container-ul {
   display: flex;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
-.second .container .second-container-ul .second-one {
-  flex-basis: calc((100% - 72px) / 4);
+.second .container .second-container-ul {
 }
 
 .second .container .second-container-ul .second-one .second-part-title {
   margin-bottom: 8px;
 }
 .visually-hidden {
-  visibility: hidden;
   position: absolute;
   width: 1px;
   height: 1px;
