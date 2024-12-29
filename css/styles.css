@@ -181,12 +181,12 @@ p {
   gap: 24px;
 }
 .second .container .second-container-ul .second-one {
-  width: calc((100% - 3 * 24px) / 4);
   list-style-type: none;
 }
 
 .second .container .second-container-ul .second-one .second-part-title {
   margin-bottom: 8px;
+  width: calc((100% - 3 * 24px) / 4);
 }
 .visually-hidden {
   display: none;
