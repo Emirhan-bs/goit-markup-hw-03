@@ -268,18 +268,18 @@ p {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.our-team .container .our-team-two {
+.our-team .container {
   padding: 0px;
   margin: 0px;
 }
-.our-team .container .our-team-two .our-team-ul {
+.our-team .container .our-team-ul {
   display: flex;
   gap: 24px;
   border: 1px solid none;
   padding-left: 0px;
   flex-basis: calc((100% - 72px) / 4);
 }
-.our-team .container .our-team-two .our-team-ul .our-team-photo {
+.our-team .container .our-team-ul .our-team-photo {
   flex-basis: calc((100% - 72px) / 4);
   background-color: #ffffff;
   display: inline-block;
@@ -288,17 +288,11 @@ p {
 
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
-.our-team
-  .container
-  .our-team-two
-  .our-team-ul
-  .our-team-photo
-  .container-two-people {
+< .our-team .container .our-team-ul .our-team-photo .container-two-people {
   padding: 32px 0px;
 }
 .our-team
   .container
-  .our-team-two
   .our-team-ul
   .our-team-photo
   .container-two-people
@@ -308,7 +302,6 @@ p {
 }
 .our-team
   .container
-  .our-team-two
   .our-team-ul
   .our-team-photo
   .container-two-people
