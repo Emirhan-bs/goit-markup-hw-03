@@ -180,13 +180,13 @@ p {
   display: flex;
   gap: 24px;
 }
-.second .container .second-container-ul .second-one {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+.second .container .second-container-ul .second-one li {
+  width: calc((100% - 72px) / 4);
 }
 .second .container .second-container-ul .second-one .second-part-title {
   margin-bottom: 8px;
 }
-.second .container .visually-hidden {
+.second .container .visually-hidden h2 {
   visibility: hidden;
   position: absolute;
   width: 1px;
@@ -285,11 +285,10 @@ p {
   display: inline-block;
   text-align: center;
   border-radius: 0px 0px 4px 4px;
-
+  padding: 32px 0px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
-< .our-team .container .our-team-ul .our-team-photo .container-two-people {
-  padding: 32px 0px;
+.our-team .container .our-team-ul .our-team-photo .container-two-people {
 }
 .our-team
   .container
@@ -314,14 +313,17 @@ p {
 
 .third {
   padding: 120px 0px;
-  border: 1px solid none;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
-
-.third .container .third-title {
+.third .container {
+  display: flex;
+  flex-direction: column;
+}
+.third .container .third-title h2 {
   margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
@@ -344,13 +346,13 @@ p {
   flex-direction: row;
 }
 .third .container .third-one .third-photo {
-  flex-basis: calc((100% - 72px) / 4);
 }
 .third .container .third-one .third-photo .third-one-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
+
+  flex-basis: calc((100% - 72px) / 4);
 }
 .third .third-photo .third-photo-title {
   font-weight: 500;
