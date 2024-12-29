@@ -14,6 +14,9 @@ h2 {
   font-family: "roboto", sans-serif;
   font-weight: 400;
 }
+img {
+  display: block;
+}
 /* Header */
 /* header logo ve bilgi */
 .all-header {
@@ -21,7 +24,7 @@ h2 {
   border-bottom: 1px solid #e7e9fc;
 }
 .all-header .container {
-  margin: 0 auto;
+  margin: 0px auto;
 }
 .all-header .container .container-nav .header {
   display: flex;
@@ -33,14 +36,9 @@ h2 {
   text-decoration: none;
 }
 /* header logo ve bilgi kısmı BİTTİ */
-/* address */
 
-.all-header .container .address {
-}
-
-/* address BİTTİ */
 /* Header BİTTİ */
-/* Bütün Gövde Bitti */
+
 /* H1 ve Buton */
 .section-main .container {
   flex-direction: column;
@@ -182,21 +180,13 @@ p {
   gap: 24px;
 }
 .second .container .second-container-ul .second-one {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .second .container .second-container-ul .second-one .second-part-title {
   margin-bottom: 8px;
 }
 .second .container .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0px;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
+  visibility: hidden;
 }
 /* Section second part BİTTİ */
 
@@ -211,7 +201,7 @@ p {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+
   display: inline-block;
   margin-bottom: 16px;
   color: #4d5ae5;
@@ -325,12 +315,7 @@ p {
   justify-content: center;
   text-align: center;
 }
-.third .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+
 .third .container .third-title {
   margin-bottom: 72px;
   font-size: 36px;
