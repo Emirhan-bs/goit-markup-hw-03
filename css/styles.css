@@ -179,6 +179,7 @@ p {
 .second .container .second-container-ul {
   display: flex;
   gap: 24px;
+  width: calc((100% - 3 * 24px) / 4);
 }
 .second .container .second-container-ul .second-one {
   list-style-type: none;
@@ -186,7 +187,6 @@ p {
 
 .second .container .second-container-ul .second-one .second-part-title {
   margin-bottom: 8px;
-  width: calc((100% - 3 * 24px) / 4);
 }
 .visually-hidden {
   display: none;
