@@ -181,13 +181,13 @@ p {
   gap: 24px;
 }
 .second .container .second-container-ul .second-one {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .second .container .second-container-ul .second-one .second-part-title {
   margin-bottom: 8px;
 }
-.visually-hidden-h2 {
+.visually-hidden {
   visibility: hidden;
   position: absolute;
   width: 1px;
