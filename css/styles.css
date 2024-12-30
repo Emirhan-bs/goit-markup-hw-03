@@ -182,6 +182,7 @@ p {
 }
 .second .container .second-container-ul .second-one {
   list-style-type: none;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .second .container .second-container-ul .second-one .second-part-title {
@@ -341,6 +342,7 @@ a {
   color: #2e2f42;
   margin-bottom: 72px;
   border: 1px solid none;
+  justify-content: center;
   display: flex;
 }
 .third .container .third-one {
@@ -353,14 +355,13 @@ a {
   text-align: center;
   flex-direction: row;
 }
-.third .container .third-one .third-photo {
-}
+
 .third .container .third-one .third-photo .third-one-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-
   flex-basis: calc((100% - 72px) / 4);
+  margin-bottom: 8px;
 }
 .third .third-photo .third-photo-title {
   font-weight: 500;
